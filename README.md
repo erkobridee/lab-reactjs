@@ -12,6 +12,8 @@
 
   * [[GitHub] facebookincubator / create-react-app](https://github.com/facebookincubator/create-react-app) - Create React apps with no build configuration
 
+    * [create-react-app vs other starter projects Andrew H Farmer](https://www.andrewhfarmer.com/create-react-app/) -  **important** must read
+
 ---
 
 * Developer Tools
