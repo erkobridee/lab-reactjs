@@ -24,7 +24,7 @@
 
 ## Projects
 
-* [hello : first contact](projects/hello_step_0_first-contact)
+* [first contact : hello react](projects/first-contact_hello-react)
 
 
 ## Study list
