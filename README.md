@@ -37,7 +37,9 @@
 
   * [Leveling Up With React: React Router | CSS-Tricks](https://css-tricks.com/learning-react-router/) - 2016/03/14
 
-  * [[YouTube] React Router Introduction | Ryan Florence](An quick introduction to the React Router v4 API) - (2017/02/01) 
+  * [[YouTube] React Router Introduction | Ryan Florence](https://www.youtube.com/watch?v=a4kqMQorcnE) - (2017/02/01) An quick introduction to the React Router v4 API
+
+    * [[GitHub] Lanseria / react-router-gist](https://github.com/Lanseria/react-router-gist)
 
   * [All About React Router 4 | CSS-Tricks](https://css-tricks.com/react-router-4/) - 2017/08/07
 
