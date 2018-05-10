@@ -1,6 +1,6 @@
 # First Contact : Redux Counter
 
-> an ultra simple dumb test with the react and the redux together
+> an ultra simple dumb test with the react and the redux together to understand the basic conpects 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
