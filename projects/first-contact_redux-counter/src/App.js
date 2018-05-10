@@ -28,8 +28,6 @@ function reducer(state = initalDefaultState, action){
     default:
       return state;
   }
-
-  return state;
 }
 
 const store = createStore(reducer);
