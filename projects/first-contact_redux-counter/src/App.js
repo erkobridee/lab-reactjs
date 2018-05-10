@@ -16,10 +16,14 @@ const initalDefaultState = {
 };
 
 function reducer(state = initalDefaultState, action){
+  console.log(action);
+
   return state;
 }
 
 const store = createStore(reducer);
+
+store.dispatch({ type : 'COUNTER:INCREMENT' });
 
 // @end: redux logic
 //----------------------------------------------------------------------------//
