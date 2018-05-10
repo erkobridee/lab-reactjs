@@ -4,18 +4,18 @@ const initalDefaultState = {
   count : 42
 };
 
-export const ACTIONS = {
+export const ACTIONS_TYPES = {
   INCREMENT : 'COUNTER:INCREMENT',
   DECREMENT : 'COUNTER:DECREMENT'
 };
 
 function reducer(state = initalDefaultState, action){
   switch(action.type){
-    case ACTIONS.INCREMENT:
+    case ACTIONS_TYPES.INCREMENT:
       return {
         count : state.count + 1
       };
-    case ACTIONS.DECREMENT:
+    case ACTIONS_TYPES.DECREMENT:
       return {
         count : state.count - 1
       };
