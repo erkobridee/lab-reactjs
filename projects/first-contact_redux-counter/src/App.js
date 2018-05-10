@@ -34,10 +34,6 @@ function reducer(state = initalDefaultState, action){
 
 const store = createStore(reducer);
 
-store.dispatch({ type : 'COUNTER:INCREMENT' });
-store.dispatch({ type : 'COUNTER:DECREMENT' });
-store.dispatch({ type : 'COUNTER:DECREMENT' });
-
 // @end: redux logic
 //----------------------------------------------------------------------------//
 

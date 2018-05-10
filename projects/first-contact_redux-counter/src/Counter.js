@@ -12,13 +12,13 @@ class Counter extends Component {
   decrement(e){
     e.preventDefault();
 
-    // TODO: fill it later
+    this.props.dispatch({ type: 'COUNTER:DECREMENT' });
   }
 
   increment(e){
     e.preventDefault();
     
-    // TODO: fill it later
+    this.props.dispatch({ type: 'COUNTER:INCREMENT' });
   }
 
   render() {
