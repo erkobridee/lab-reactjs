@@ -4,10 +4,6 @@ class Counter extends Component {
   constructor(props){
     super(props);
 
-    this.state = {
-      count : 42
-    };
-
     this.decrement = this.decrement.bind(this);
     this.increment = this.increment.bind(this);
   }
@@ -15,17 +11,13 @@ class Counter extends Component {
   decrement(e){
     e.preventDefault();
 
-    this.setState({
-      count : this.state.count-1
-    });
+    // TODO: fill it later
   }
 
   increment(e){
     e.preventDefault();
     
-    this.setState({
-      count : this.state.count+1
-    });
+    // TODO: fill it later
   }
 
   render() {
@@ -34,7 +26,7 @@ class Counter extends Component {
         <h2>Counter</h2>
         <div>
           <button onClick={this.decrement}>&ndash;</button>
-          <span> {this.state.count} </span>
+          <span> {this.props.count} </span>
           <button onClick={this.increment}>+</button>
         </div>
       </div>

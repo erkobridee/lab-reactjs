@@ -13,7 +13,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">First React + Redux concat : a dumb test</h1>
         </header>
-        <Counter />
+        <Counter count={42} />
       </div>
     );
   }
