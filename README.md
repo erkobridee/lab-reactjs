@@ -28,6 +28,7 @@
 
 * [first contact : router](projects/first-contact_router)
 
+* [first contact : redux counter](projects/first-contact_redux-counter)
 
 ## Study list
 
