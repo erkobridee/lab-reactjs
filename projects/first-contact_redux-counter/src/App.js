@@ -11,10 +11,12 @@ import './App.css';
 
 import { createStore } from 'redux';
 
-function reducer(){
-  return {
-    count : 42
-  };
+const initalDefaultState = {
+  count : 42
+};
+
+function reducer(state = initalDefaultState, action){
+  return state;
 }
 
 const store = createStore(reducer);
