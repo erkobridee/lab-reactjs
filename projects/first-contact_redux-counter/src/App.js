@@ -1,44 +1,17 @@
 import React, { Component } from 'react';
 import { Provider } from 'react-redux';
 
+import reduxStore from './reduxLogic';
+
 import Counter from './Counter';
 
 import logo from './logo.svg';
 import './App.css';
 
-//----------------------------------------------------------------------------//
-// @begin: redux logic
-
-import { createStore } from 'redux';
-
-const initalDefaultState = {
-  count : 42
-};
-
-function reducer(state = initalDefaultState, action){
-  switch(action.type){
-    case 'COUNTER:INCREMENT':
-      return {
-        count : state.count + 1
-      };
-    case 'COUNTER:DECREMENT':
-      return {
-        count : state.count - 1
-      };
-    default:
-      return state;
-  }
-}
-
-const store = createStore(reducer);
-
-// @end: redux logic
-//----------------------------------------------------------------------------//
-
 class App extends Component {
   render() {
     return (
-      <Provider store={store}>
+      <Provider store={reduxStore}>
         <div className="App">
           <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
