@@ -10,7 +10,9 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 ## Links
 
-* [Usage with React | Redux](https://redux.js.org/basics/usage-with-react)
+* [Redux](https://redux.js.org/)
+
+  * [Usage with React | Redux](https://redux.js.org/basics/usage-with-react)
 
 --
 
