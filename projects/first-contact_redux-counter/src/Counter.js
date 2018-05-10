@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-import { ACTIONS_TYPES } from './reduxLogic';
+import { toDispatch } from './reduxLogic';
 
 class Counter extends Component {
   constructor(props){
@@ -14,13 +14,13 @@ class Counter extends Component {
   decrement(e){
     e.preventDefault();
 
-    this.props.dispatch({ type: ACTIONS_TYPES.DECREMENT });
+    this.props.dispatch( toDispatch.decrement() );
   }
 
   increment(e){
     e.preventDefault();
     
-    this.props.dispatch({ type: ACTIONS_TYPES.INCREMENT });
+    this.props.dispatch( toDispatch.increment() );
   }
 
   render() {

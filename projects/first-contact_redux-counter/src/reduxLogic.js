@@ -9,6 +9,11 @@ export const ACTIONS_TYPES = {
   DECREMENT : 'COUNTER:DECREMENT'
 };
 
+export const toDispatch = {
+  increment : () => ({ type : ACTIONS_TYPES.INCREMENT }),
+  decrement : () => ({ type : ACTIONS_TYPES.DECREMENT })
+};
+
 function reducer(state = initalDefaultState, action){
   switch(action.type){
     case ACTIONS_TYPES.INCREMENT:
