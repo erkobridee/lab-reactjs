@@ -10,4 +10,10 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 ## Links
 
+* [Usage with React | Redux](https://redux.js.org/basics/usage-with-react)
+
+--
+
 * [[YouTube] Adding Redux to a Simple React App | Dave Ceddia](https://www.youtube.com/watch?v=sX3KeP7v7Kg) - 2017/12/30
+
+* [How To Add Redux To Create React App | PentaCode](https://www.penta-code.com/how-to-add-redux-to-create-react-app/) - 2017/01/05
