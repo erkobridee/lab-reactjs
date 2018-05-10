@@ -16,7 +16,18 @@ const initalDefaultState = {
 };
 
 function reducer(state = initalDefaultState, action){
-  console.log(action);
+  switch(action.type){
+    case 'COUNTER:INCREMENT':
+      return {
+        count : state.count + 1
+      };
+    case 'COUNTER:DECREMENT':
+      return {
+        count : state.count - 1
+      };
+    default:
+      return state;
+  }
 
   return state;
 }
@@ -24,6 +35,8 @@ function reducer(state = initalDefaultState, action){
 const store = createStore(reducer);
 
 store.dispatch({ type : 'COUNTER:INCREMENT' });
+store.dispatch({ type : 'COUNTER:DECREMENT' });
+store.dispatch({ type : 'COUNTER:DECREMENT' });
 
 // @end: redux logic
 //----------------------------------------------------------------------------//
