@@ -30,6 +30,8 @@
 
 * [first contact : redux counter](projects/first-contact_redux-counter)
 
+* [webpack 4 : hello react](projects/webpack4_hello-react) - with sass and css modules support
+
 ## Study list
 
 * react router
