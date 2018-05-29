@@ -1,0 +1,49 @@
+# lab-reactjs - study list/plan
+
+- [react router](#react-router)
+- [create tabs component](#create-tabs-component)
+- [using sass/scss](#using-sassscss)
+
+## react router
+
+* [[GitHub] reactjs / react-router-tutorial](https://github.com/reactjs/react-router-tutorial)
+
+* [Leveling Up With React: React Router | CSS-Tricks](https://css-tricks.com/learning-react-router/) - 2016/03/14
+
+* [[YouTube] React Router Introduction | Ryan Florence](https://www.youtube.com/watch?v=a4kqMQorcnE) - (2017/02/01) An quick introduction to the React Router v4 API
+
+  * [[GitHub] Lanseria / react-router-gist](https://github.com/Lanseria/react-router-gist)
+
+* [All About React Router 4 | CSS-Tricks](https://css-tricks.com/react-router-4/) - 2017/08/07
+
+
+## create tabs component
+
+* [Stateless React components | Todd Motto](https://toddmotto.com/stateless-react-components/) - 2015/12/28
+
+* [Creating a tabs component with React | Todd Motto](https://toddmotto.com/creating-a-tabs-component-with-react/) - 2015/12/28
+
+* [Creating an accessible tab component with React | Andreas McDermott – Medium](https://medium.com/@andreasmcd/creating-an-accessible-tab-component-with-react-24ed30fde86a) - 2016/11/06
+
+
+## using sass/scss
+
+* [[GitHub] facebookincubator / create-react-app / Sass integration documentation](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-a-css-preprocessor-sass-less-etc)
+
+  * [Optional Sass Support #78](https://github.com/facebookincubator/create-react-app/issues/78)
+
+* [Adding Sass or Scss to Create-React-App | Connor Elsea – Medium](https://medium.com/@Connorelsea/using-sass-with-create-react-app-7125d6913760) - 2016/08/31
+
+* [[YouTube] Sass setup in create-react-app project | Jordan Rhea](https://www.youtube.com/watch?v=tWp0oxbzZ3s) - 2017/01/21
+
+  * [[Gist] Create-React-App with Sass configuration](https://gist.github.com/rheajt/2f2f070291e39e86cf44705aa74e412e)
+
+* [Using Sass with Create React App (Without Ejecting) | Hacker Noon](https://hackernoon.com/using-sass-with-create-react-app-without-ejecting-b5f4f827ed9e) - 2017/06/09
+
+  * [[GitHub] Jeff-Duke / sass-setup-demo](https://github.com/Jeff-Duke/sass-setup-demo) - a demo repo for using Sass with Create React App
+
+* [CSS Modules & Sass in Create React App | Kirsten Swanson – Medium](https://medium.com/@kswanie21/css-modules-sass-in-create-react-app-37c3152de9) - 2017/07/31
+
+  * [[GitHub] swanie21 / sass-css-modules-webpack](https://github.com/swanie21/sass-css-modules-webpack) - Create React App with Sass and CSS Modules
+
+
