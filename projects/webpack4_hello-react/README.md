@@ -30,6 +30,8 @@ Basic example about how to use the webpack 4 as development support tool to a re
 
 * [Getting started with CSS modules in React | Pusher Blog](https://blog.pusher.com/css-modules-react/) - 2018/02/15
 
+* [BabelJS Docs - plugins - preset-es2015 : modules](https://babeljs.io/docs/plugins/preset-es2015/#modules)
+
 
 ### Dependencies
 
